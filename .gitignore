@@ -6,10 +6,8 @@ __pycache__/
 *.so
 *.c
 
-# Data files (remove these lines if you want to share your data)
+# Raw input files (not shared — place in inputs/ folder to run locally)
 inputs/
-outputs/Master_Dataset.csv
-outputs/Model_Predictions.csv
 
 # OS files
 .DS_Store
