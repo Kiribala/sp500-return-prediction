@@ -2,7 +2,7 @@
 ### Evidence from CAPM, Extended Financial Models, and Random Forest Models on S&P 500 Stocks (2008–2024)
 **MSc International Finance Dissertation**
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Kiribala/sp500-return-prediction/blob/main/final/notebooks/Dissertation_Analysis.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Kiribala/sp500-return-prediction/blob/main/notebooks/Dissertation_Analysis.ipynb)
 
 ---
 
