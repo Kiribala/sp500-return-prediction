@@ -2,9 +2,7 @@
 ### Evidence from CAPM, Extended Financial Models, and Random Forest Models on S&P 500 Stocks (2008–2024)
 **MSc International Finance Dissertation**
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME/blob/main/final/notebooks/Dissertation_Analysis.ipynb)
-
-> **Replace `YOUR_GITHUB_USERNAME` and `YOUR_REPO_NAME` in the badge URL above once you have created your GitHub repository.**
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Kiribala/sp500-return-prediction/blob/main/final/notebooks/Dissertation_Analysis.ipynb)
 
 ---
 
@@ -87,8 +85,8 @@ final/
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME.git
-cd YOUR_REPO_NAME/final
+git clone https://github.com/Kiribala/sp500-return-prediction.git
+cd sp500-return-prediction/final
 
 # 2. Install dependencies
 pip install -r requirements.txt
