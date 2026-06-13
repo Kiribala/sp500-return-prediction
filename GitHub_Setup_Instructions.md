@@ -127,7 +127,9 @@ Open Terminal, navigate to the folder **containing** your `final/` folder, then 
 
 ⚠️ **Before running `git push`: complete Step 8 first to get a Personal Access Token.** GitHub does not accept your account password here — it will be rejected. You need a token instead.
 
-Run each command below one at a time in Terminal:
+⚠️ **Run each command below one at a time** — do not paste the whole block at once. Copy one line, press Enter, wait for it to finish, then copy the next.
+
+⚠️ **You must replace `YOUR_USERNAME` and `YOUR_REPO_NAME`** with your actual GitHub username and the repository name you created in Step 2. Get the exact URL from your GitHub repo page (green **Code** button → HTTPS).
 
 ```bash
 # Navigate to the final/ folder
@@ -153,6 +155,12 @@ git push -u origin main
 
 When `git push` asks for your **Username**, type your GitHub username and press Enter.  
 When it asks for your **Password**, paste your Personal Access Token from Step 8 (not your GitHub login password). **Nothing will appear as you paste — this is normal**, Terminal hides it for security. Press Enter and the push will complete.
+
+**If you see `error: remote origin already exists`**, run these two commands to fix it, then retry `git push`:
+```bash
+git remote remove origin
+git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+```
 
 ---
 
