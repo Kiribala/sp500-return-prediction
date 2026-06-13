@@ -125,6 +125,10 @@ To confirm it was created, run `ls -a` — you should see `.gitignore` in the li
 
 Open Terminal, navigate to the folder **containing** your `final/` folder, then run:
 
+⚠️ **Before running `git push`: complete Step 8 first to get a Personal Access Token.** GitHub does not accept your account password here — it will be rejected. You need a token instead.
+
+Run each command below one at a time in Terminal:
+
 ```bash
 # Navigate to the final/ folder
 cd /Users/kiribalankannan/Documents/Codex/2026-06-11/files-mentioned-by-the-user-company/final
@@ -147,8 +151,8 @@ git branch -M main
 git push -u origin main
 ```
 
-When prompted, enter your GitHub username and password.  
-**Note:** If you have two-factor authentication enabled, use a Personal Access Token as your password (see Step 8 below).
+When `git push` asks for your **Username**, type your GitHub username and press Enter.  
+When it asks for your **Password**, paste your Personal Access Token from Step 8 (not your GitHub login password). **Nothing will appear as you paste — this is normal**, Terminal hides it for security. Press Enter and the push will complete.
 
 ---
 
