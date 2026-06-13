@@ -1,0 +1,4 @@
+Comparison,Test,Loss_Function,Mean_Loss_Difference,Statistic,p_Value,N,Interpretation
+CAPM vs Extended Model,Diebold-Mariano style paired loss test,squared_error,4.960142258293148e-05,2.450829118296354,0.014371058939622428,1440,Negative mean difference favours first model; positive favours second model.
+CAPM vs Random Forest,Diebold-Mariano style paired loss test,squared_error,0.00018168785503257852,2.162340080280944,0.03075630616511682,1440,Negative mean difference favours first model; positive favours second model.
+Extended Model vs Random Forest,Diebold-Mariano style paired loss test,squared_error,0.00013208643244964704,1.6616887788046963,0.09679300524658796,1440,Negative mean difference favours first model; positive favours second model.
